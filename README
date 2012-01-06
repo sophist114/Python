@@ -1,0 +1,30 @@
+--------------------github-------------
+
+----create----
+Global setup:
+
+ Set up git
+ git init
+  git config --global user.name "Sophist"
+  git config --global user.email wzp2153@163.com
+      
+
+Next steps:
+
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:sophist114/Python.git
+  git push -u origin master
+      
+-----checkout--------
+git clone git@github.com:sophist114/Python.git
+git remote add upstream git://github.com/sophist114/Python.git
+git fetch upstream
+
+Generate SSH key:
+ssh-keygen -t rsa -C "sophist114@gmail.com"
+Test:
+ssh -T git@github.com
+
+git download :
+http://code.google.com/p/msysgit/downloads/detail?name=Git-1.7.7-preview20111012.exe&can=2&q=
